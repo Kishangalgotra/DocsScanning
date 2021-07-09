@@ -13,7 +13,7 @@
             android:name=".DashBoard"
             android:label="@string/title_activity_dash_board"
             android:theme="@style/Theme.DocsScanning.NoActionBar"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
