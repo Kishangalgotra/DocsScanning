@@ -2,7 +2,9 @@ package com.example.docsscanning;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.util.Log;
 
 public class SplashScreen extends AppCompatActivity {
@@ -11,6 +13,8 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.i("Kishan","sdsadsa");
+        //CountDownTimer countDownTimer =thic
+        Intent intent =  new Intent(this,DashBoard.class);
+        startActivity(intent);
     }
 }
