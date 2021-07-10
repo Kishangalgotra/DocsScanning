@@ -14,7 +14,7 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //CountDownTimer countDownTimer =thic
-        Intent intent1 =  new Intent(this,DashBoard.class);
-        startActivity(intent1);
+        Intent intent2 =  new Intent(this,DashBoard.class);
+        startActivity(intent2);
     }
 }
